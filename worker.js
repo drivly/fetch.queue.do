@@ -14,6 +14,8 @@ const api = {
 
 export default {
   fetch: async (req, env) =>  {
+    const { user } = await env.CTX.fetch(req).then(res => res.json())
+    const { origin, hostname, pathname } = new URL(req.url)
     return new Response(JSON.stringify({ api, user }, null, 2), { headers: { 'content-type': 'application/json; charset=utf-8' }})
   }
 }
