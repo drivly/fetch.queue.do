@@ -1,8 +1,8 @@
 const api = {
   icon: '⚡️☁️',
-  name: 'webhooks.do',
-  description: 'Webhook Storage',
-  url: 'https://webhooks.do/api',
+  name: 'fetch.queue.do',
+  description: 'Fetch Queue',
+  url: 'https://fetch.queue.do/api',
   type: 'https://apis.do/tools',
   endpoints: {
     webhook: 'https://webhooks.do/:namespace',
