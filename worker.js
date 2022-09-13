@@ -5,10 +5,10 @@ const api = {
   url: 'https://fetch.queue.do/api',
   type: 'https://apis.do/tools',
   endpoints: {
-    webhook: 'https://webhooks.do/:namespace',
-    details: 'https://webhooks.do/:namespace/:id',
+    webhook: 'https://fetch.queue.do/:namespace',
+    details: 'https://fetch.queue.do/:namespace/:id',
   },
-  site: 'https://webhooks.do',
+  site: 'https://fetch.queue.do',
   repo: 'https://github.com/drivly/webhooks.do',
 }
 
