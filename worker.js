@@ -9,7 +9,7 @@ const api = {
     details: 'https://fetch.queue.do/:namespace/:id',
   },
   site: 'https://fetch.queue.do',
-  repo: 'https://github.com/drivly/webhooks.do',
+  repo: 'https://github.com/drivly/fetch.queue.do',
 }
 
 export default {
